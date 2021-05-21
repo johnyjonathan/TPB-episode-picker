@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+{%  load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - TPB episode picker</title>
+    <meta name="description" content="Generate random Trailer Park Boys episode and check out the best quotes from the show">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="{% static 'assets/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top" style="color: rgb(221,26,13);">TPB episode picker</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead">
+        <div class="container">
+            <div class="text-center intro-text" style="border-color: rgb(255,255,255);">
+                <div class="intro-lead-in"><strong>Trailer Park Boys random episode</strong></div>
+                <div class="intro-heading text-uppercase"><span class="swing animated">Pick your random episode</span>
+                </div>
+                <span class="float-none output">{{ name_of_series }} Season {{season}} episode {{episode}}</span>
+                <a class="btn btn-primary border-primary btn-xl text-uppercase" role="button" data-bss-hover-animate="rubberBand" href="{% url 'home' %}" style="width: 205.8px;transform: perspective(0px);box-shadow: 0px 0px rgb(255, 255, 255);">Back</a>
+            </div>
+        </div>
+    </header>
+   
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
