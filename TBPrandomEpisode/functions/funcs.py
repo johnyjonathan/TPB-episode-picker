@@ -40,7 +40,7 @@ def showName (season_number):
 
 
 
-shows_names = ['Trailer Park Boys', 'Trailer Park Boys: The Animated Series', 'Trailer Park Boys: Out of the Park: USA', 'Trailer Park Boys: Out of the Park: Europe']
+shows_names = ['Trailer Park Boys: ', 'Trailer Park Boys: The Animated Series', 'Trailer Park Boys: Out of the Park: USA', 'Trailer Park Boys: Out of the Park: Europe']
 
 #all_shows = list(orginal_show.values()) + list(animated_show.values()) + list(euro_show.values()) + list(usa_show.values())
 

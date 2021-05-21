@@ -20,4 +20,5 @@ from TBPrandomEpisode import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('randomepisode/', views.result, name='result')
 ]
